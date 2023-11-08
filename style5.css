@@ -1,0 +1,119 @@
+body {
+text-align: center;
+font-size: 200%;
+background-color: rgba(255, 255, 255, 0.1);
+background-image: url("sfondotrasparente.png"); 
+
+
+}
+
+#medico {
+    font-size: medium;
+    height: auto;
+    width: auto;
+    border: #DFDBE5, 10px;
+    position: relative;
+    display: inline;
+
+}
+
+.medici:link {
+    color: rgb(190, 59, 47);
+    background-color: transparent;
+    text-decoration: none;
+  }
+.medici:visited {
+    color: #d22a18;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.medici:hover {
+    color: rgb(187, 111, 111);
+    background-color: transparent;
+    text-decoration: none;
+  }
+.medici:active {
+    color: rgb(184, 109, 109);
+    background-color: transparent;
+    text-decoration: none;
+  }
+/* Inserisco le dimensioni in auto dell'immagine */
+
+
+#titolo1 {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Nunito Sans', sans-serif;
+    text-shadow: grey, 20px;
+    height: auto;
+    width: auto;
+    font-size: smaller;
+
+}
+
+.titolo2 {
+    font-style: inherit;
+    font-size: medium;
+    height: 1em;
+    width: 1em;
+    text-align: auto;
+
+}
+
+#footer {
+    height: fit-content;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Inseriamo un effetto a hover */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Selezioniamo uno specifico colore per ogni icona dei brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+
+#medico {
+    background-color: rgb(218, 242, 234, 1);
+    display: inline;
+    
+
+}
+
+.forma {
+   background-color: rgb(218, 242, 234, 1);
+   box-sizing: inherit;
+   display: inline;
+   justify-content: space-between;
+   
+}
+
+
+#secondofont {
+    font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Nunito Sans', sans-serif;
+}
+
